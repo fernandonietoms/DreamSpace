@@ -1,0 +1,318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7157334391418512535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7159253676754193257}
+  - component: {fileID: 4532578072836664106}
+  - component: {fileID: 1967922948320585432}
+  - component: {fileID: 3604336555866495051}
+  m_Layer: 0
+  m_Name: 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7159253676754193257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7157334391418512535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3415785923152881187}
+  - {fileID: 3667279721360070407}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4532578072836664106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7157334391418512535}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1967922948320585432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7157334391418512535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84d0bfaf709019438b81c2f81e19f34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animCurves: {fileID: 11400000, guid: 99b05fed0638e104e93b2eeaa0660341, type: 2}
+  initScale: 0
+  toolVerticalWasUsed: 0
+  state: 0
+  cantidad: 1
+  aligment: 100
+  tool: 0
+  gizmoObject: {fileID: 3667279721360070456}
+  producto:
+    idProBodPre: 2428
+    cantidadMayoreo: 0
+    descripcion: Infinity Collection Simphony Grey 60 x 120
+    descripcionLarga: '<p><span style="color: rgb(77, 79, 83); font-family: helvetica;
+      font-size: 11.5px; font-style: normal; font-variant-ligatures: normal; font-variant-caps:
+      normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left;
+      text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing:
+      0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);
+      text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color:
+      initial; display: inline !important; float: none;">Piso porcel&aacute;nico
+      en formato extra grande 60X120 cms, estilo m&aacute;rmol, color gris. Para
+      uso en piso y pared, recomendado para interior y exterior, para &aacute;reas
+      como ba&ntilde;o, cocina, rec&aacute;mara, comedor y terrazas, tr&aacute;fico
+      residencial y comercial ligero y alta variaci&oacute;n de tonalidades asemejando
+      la naturalidad del producto.</span></p>'
+    activos: 0
+    codigoBarra: 
+    alto: 0.0
+    ancho: 120.0
+    largo: 60
+    imagenEmpresa: https://arvispace.com/ArvisAmbientePruebas/admin/imagenesEmpresa/22194111Interceramic01.PNG
+    cp: 90796
+    idEmpresa: 
+    nombreEmpresa: 
+    Caracteristicas:
+    - idCaracteristica: 2456
+      precio: 804.96
+      tipoCaracteristica: "Piso porcel\xE1nico en formato extra grande 60X120 cms"
+      fotoTexture2DCaracteristica: {fileID: 0}
+      foto: https://arvispace.com/ArvisAmbientePruebas/admin/imagenesCaracteristicas/23184948no
+        personalizable_Mesa de trabajo 1.png
+      idProBodPre: 2428
+      statusOferta: 0
+      existencia: 100
+      cantidad: 1
+      codigo: 1
+      precioOferta: 0.00
+      item: 1271
+      itemID: I1271
+      imagenes:
+      - idImagen: 714
+        nombreImagen: https://arvispace.com/ArvisAmbientePruebas/admin/imagenes/23184996Infinity
+          Collection Simphony Cuadrado 01-min.png
+        FotoTexture2DImagen: {fileID: 0}
+        idCaracteristica: 2456
+  caracteristicas:
+  - id: 0
+    normal: []
+  renderers: []
+  idSelected: 2456
+  isInteractable: 1
+  idProBodPre: 2428
+  placed: 0
+  validePlaced: 0
+  isBundle: 0
+  isDeleting: 0
+  isBouncing: 0
+  isMoving: 0
+  tipoMueble: 0
+  tempId: 0
+--- !u!54 &3604336555866495051
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7157334391418512535}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 700
+  m_AngularDrag: 50
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 3
+--- !u!1001 &559531532592997191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7159253676754193257}
+    m_Modifications:
+    - target: {fileID: 2233728365612611447, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_Name
+      value: Sillon Testing
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e7a814f65a46a6428e108d024a4aeb6, type: 3}
+--- !u!4 &3415785923152881187 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2928630335109023076, guid: 5e7a814f65a46a6428e108d024a4aeb6,
+    type: 3}
+  m_PrefabInstance: {fileID: 559531532592997191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1880609458412492258
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7159253676754193257}
+    m_Modifications:
+    - target: {fileID: 2953674364031304410, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_Name
+      value: Gizmo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a16bf624208ed674b818b7817eabfe0d, type: 3}
+--- !u!1 &3667279721360070456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2953674364031304410, guid: a16bf624208ed674b818b7817eabfe0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1880609458412492258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3667279721360070407 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2953674364031304421, guid: a16bf624208ed674b818b7817eabfe0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1880609458412492258}
+  m_PrefabAsset: {fileID: 0}
